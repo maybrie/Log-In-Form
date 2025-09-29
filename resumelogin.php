@@ -19,7 +19,7 @@ This allows me to fill the gap between designers and developers in a team, deliv
 $skills = ["User Experience (UX)", "Web Developer", "Wireframing / Prototyping", 
            "User Interface / Design (UI)", "Front-End Development", "Back-End Development"];
 
-$tools = ["Figma, Framer", "<strong>WordPress</strong>", "PHP, MySQL", "VS Code, Git", "XAMPP", "Laravel"];
+$tools = ["Figma, Framer", "WordPress", "PHP, MySQL", "VS Code, Git", "XAMPP", "Laravel"];
 
 $projects = [
     "<strong>https://github.com/maybrie/Inventory-Management-System",
@@ -325,3 +325,4 @@ $extras = ["Dancer, Singer", "Speaker/Writer"];
 </div>
 </body>
 </html>
+
