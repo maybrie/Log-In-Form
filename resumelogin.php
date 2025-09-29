@@ -13,7 +13,7 @@ $email = "faye@gmail.com";
 $instatwitgit = "fayebcarubio";
 
 $profile = "I am a Lead Designer highly experienced in solving <strong>performance, accessibility</strong>, and <strong>User experience issues</strong>.
-I spent the last 10 years <strong>designing websites and applications</strong> & pushing organizations forward. <br> I also have hands-on experience in <strong>PHP development</strong>, creating web systems using <strong>XAMPP</strong>, which gives me a solid understanding of <strong>Front-End and Back-End constraints</strong>.
+I spent the last 2 years <strong>designing websites and applications</strong> & pushing organizations forward. <br> I also have hands-on experience in <strong>PHP development</strong>, creating web systems using <strong>XAMPP</strong>, which gives me a solid understanding of <strong>Front-End and Back-End constraints</strong>.
 This allows me to fill the gap between designers and developers in a team, delivering solutions based on <strong>Atomic Design</strong> and tools like <strong>Design Systems</strong>.";
 
 $skills = ["User Experience (UX)", "Web Developer", "Wireframing / Prototyping", 
@@ -325,4 +325,5 @@ $extras = ["Dancer, Singer", "Speaker/Writer"];
 </div>
 </body>
 </html>
+
 
