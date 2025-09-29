@@ -25,8 +25,8 @@ VS Code – development environment
 2. Start your PostgreSQL server and create the database + users table.
 3. Update the database connection settings in the PHP file (config.php or similar).
 4. Run the project using one of these options:
-    If you have Apache/Nginx installed, place the project folder in your server’s root directory.
-    Or use PHP’s built-in server:
+If you have Apache/Nginx installed, place the project folder in your server’s root directory.
+Or use PHP’s built-in server:
 
 bash
 php -S localhost:8000
