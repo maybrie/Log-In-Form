@@ -1,7 +1,6 @@
 <?php
-session_start(); // Start session to track login
+session_start(); 
 
-// Define correct credentials
 $valid_username = "admin";
 $valid_password = "1234";
 
@@ -14,7 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($username) || empty($password)) {
         $error = "All fields are required!";
     } elseif ($username === $valid_username && $password === $valid_password) {
-        // Save session and redirect to resume
         $_SESSION['loggedin'] = true;
         header("Location: resumelogin.php");
         exit();
@@ -30,7 +28,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <title>Login</title>
     <style>
-        /* Reset + Center */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -41,7 +38,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             background: linear-gradient(135deg, #3a73d9, #6c9eff);
         }
 
-        /* Login Card */
         .login-container {
             width: 350px;
             background: #fff;
@@ -56,7 +52,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             color: #3a73d9;
         }
 
-        /* Inputs */
         .login-container input[type="text"],
         .login-container input[type="password"] {
             width: 90%;
@@ -67,7 +62,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             font-size: 14px;
         }
 
-        /* Button */
         .login-container input[type="submit"] {
             width: 100%;
             padding: 12px;
@@ -85,7 +79,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             background: #2c5db6;
         }
 
-        /* Error Message */
         .error {
             color: red;
             margin-top: 15px;
