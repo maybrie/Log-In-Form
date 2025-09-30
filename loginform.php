@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $error = "All fields are required!";
     } elseif ($username === $valid_username && $password === $valid_password) {
         $_SESSION['loggedin'] = true;
-        $success = "Login successful! Redirecting to resume...";
+        $success = "Login successful!";
         header("refresh:1;url=resumelogin.php");
         } else {
         $error = "Invalid Username or Password";
@@ -176,3 +176,4 @@ function togglePassword() {
 
 </body>
 </html>
+
